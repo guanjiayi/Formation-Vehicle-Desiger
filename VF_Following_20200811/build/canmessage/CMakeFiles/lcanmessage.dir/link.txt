@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblcanmessage.a  CMakeFiles/lcanmessage.dir/canmessage.cpp.o
+/usr/bin/ranlib liblcanmessage.a

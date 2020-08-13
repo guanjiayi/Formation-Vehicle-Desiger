@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/canmessage/canmessage.hpp
+iostream
+-
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/control/control.hpp
+iostream
+-
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/decision/decision.hpp
+iostream
+-
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/main/FV_Planner.cpp
+../decision/decision.hpp
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/decision/decision.hpp
+../canmessage/canmessage.hpp
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/canmessage/canmessage.hpp
+../control/control.hpp
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/control/control.hpp
+../planning/planning.hpp
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/planning/planning.hpp
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/planning/planning.hpp
+iostream
+-
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/decision/decision.cpp
+decision.hpp
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/decision/decision.hpp
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/decision/decision.hpp
+iostream
+-
+

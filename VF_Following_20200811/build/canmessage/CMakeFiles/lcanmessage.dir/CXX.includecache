@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/canmessage/canmessage.cpp
+canmessage.hpp
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/canmessage/canmessage.hpp
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200811/canmessage/canmessage.hpp
+iostream
+-
+
