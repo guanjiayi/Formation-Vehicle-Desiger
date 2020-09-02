@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "thread": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp",
+        "*.tcc": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "cmath": "cpp",
+        "functional": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "streambuf": "cpp",
+        "random": "cpp",
+        "typeinfo": "cpp",
+        "iostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

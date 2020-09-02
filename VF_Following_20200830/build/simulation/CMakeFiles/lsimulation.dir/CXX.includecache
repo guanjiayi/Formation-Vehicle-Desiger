@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200830/main/FV_Planner.hpp
+thread
+-
+mutex
+-
+cmath
+-
+unistd.h
+-
+stdio.h
+-
+ctime
+-
+typeinfo
+-
+string
+-
+vector
+-
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200830/simulation/simulation.cpp
+simulation.hpp
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200830/simulation/simulation.hpp
+../main/FV_Planner.hpp
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200830/main/FV_Planner.hpp
+fstream
+-
+sstream
+-
+string.h
+-
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200830/simulation/simulation.hpp
+iostream
+-
+

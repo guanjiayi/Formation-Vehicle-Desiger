@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblplanning.a  CMakeFiles/lplanning.dir/planning.cpp.o
+/usr/bin/ranlib liblplanning.a
