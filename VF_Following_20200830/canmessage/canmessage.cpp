@@ -629,13 +629,13 @@ void CANMessage::CAN2Val_Yaw_Rate(int*CANMsg_Yaw_Rate)
 {
     mutex mut;
     lock_guard<mutex>lock(mut);
-    if (CANMsg_Yaw_Rate[5] >= 0x80)
+    if (CANMsg_Yaw_Rate[2] >= 0x80)
     {
-        Follower_yaw_rate = (256 * CANMsg_Yaw_Rate[3] + CANMsg_Yaw_Rate[2] - 65536)/131;
+        Follower_yaw_rate = (256 * CANMsg_Yaw_Rate[2] + CANMsg_Yaw_Rate[3] - 65536)/131;
     }
     else
     {
-        Follower_yaw_rate = ( 256 * CANMsg_Yaw_Rate[3] + CANMsg_Yaw_Rate[2])/131;
+        Follower_yaw_rate = ( 256 * CANMsg_Yaw_Rate[2] + CANMsg_Yaw_Rate[3])/131;
     }
         
     // Follower_yaw_rate=(CANMsg_Yaw_Rate[2]+CANMsg_Yaw_Rate[3]*256)/131;   
