@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200816/planning/planning.cpp
+planning.hpp
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200816/planning/planning.hpp
+
+/home/guanjiayi/GV_Project/GuideAuto/VF_Following_20200816/planning/planning.hpp
+iostream
+-
+

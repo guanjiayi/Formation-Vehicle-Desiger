@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "thread": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp"
+    }
+}
