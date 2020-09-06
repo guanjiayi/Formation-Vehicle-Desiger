@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvidia/CLionProjects/VF_Following_20200905_n/main/FV_Planner.hpp
+thread
+-
+mutex
+-
+cmath
+-
+unistd.h
+-
+stdio.h
+-
+ctime
+-
+typeinfo
+-
+string
+-
+vector
+-
+
+/home/nvidia/CLionProjects/VF_Following_20200905_n/simulation/simulation.cpp
+simulation.hpp
+/home/nvidia/CLionProjects/VF_Following_20200905_n/simulation/simulation.hpp
+../main/FV_Planner.hpp
+/home/nvidia/CLionProjects/VF_Following_20200905_n/main/FV_Planner.hpp
+fstream
+-
+sstream
+-
+string.h
+-
+
+/home/nvidia/CLionProjects/VF_Following_20200905_n/simulation/simulation.hpp
+iostream
+-
+

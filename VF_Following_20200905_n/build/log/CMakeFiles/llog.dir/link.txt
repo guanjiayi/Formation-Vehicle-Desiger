@@ -1,0 +1,2 @@
+/usr/bin/ar qc libllog.a  CMakeFiles/llog.dir/log.cpp.o
+/usr/bin/ranlib libllog.a
