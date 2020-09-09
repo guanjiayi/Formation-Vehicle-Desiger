@@ -12,7 +12,7 @@ version decription:
    conclusion : so you can use VF_Following_20200816 and VF_20200905_n grogram control the following vehicle
    
    
-# use guide：
+# user guide：
    step 1: cd ~    
    step 2: cd VF_Following_20200905_n/            # 进入该工程目录下;   
    step 3: rm -rf build                           # 第一次运行时，需要把 build/文件家删掉，不然之前的编译的文件会提示链接不对;   
