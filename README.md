@@ -13,14 +13,22 @@ version decription:
    
    
 use guide：
-   step 1: cd ~
+   step 1: cd ~ 
+   
    step 2: cd VF_Following_20200905_n/            # 进入该工程目录下;
+   
    step 3: rm -rf build                           # 第一次运行时，需要把 build/文件家删掉，不然之前的编译的文件会提示链接不对;
+   
    step 4: mkdir build                            # 创建一个build/文件夹;
+   
    step 5: cd build/                              # 进入创建的build/文件夹下;
+   
    step 6：cmake ..                               # 通过cmake生成makefile;
+   
    step 7: make                                   # 根据makefile直接用make编译;
+   
    step 8: ./FV_Folloing                          # 直接执行编译后生成的可执行文件;
+   
    
 
 contact:
