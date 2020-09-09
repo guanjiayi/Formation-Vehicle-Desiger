@@ -26,4 +26,4 @@ version decription:
 
 # contact:
   email: guan_jiayi@126.com; 1224415674@qq.com; gunajiayi@tongji.edu.cn
-  wechat:18702792654
+
