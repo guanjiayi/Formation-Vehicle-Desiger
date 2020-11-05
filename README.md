@@ -1,7 +1,7 @@
 # Formation-Vehicle-Desiger
 
 # decription:
-the program is use to control the following vehicle to following the head vehicle of the formation vehicle project.
+the program is used to control the following vehicle to following the head vehicle of the formation vehicle project.
 
 
 version decription:
